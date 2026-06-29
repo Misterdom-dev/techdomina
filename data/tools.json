@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Jasper",
+    "initial": "J",
+    "color": "#7c3aed",
+    "category": "Marketing & Content",
+    "price": "Paid",
+    "featured": true,
+    "description": "AI writing assistant built for marketing teams — blog posts, ads, and on-brand copy at scale.",
+    "url": "https://www.jasper.ai/?ref=techdomina"
+  },
+  {
+    "name": "Copy.ai",
+    "initial": "C",
+    "color": "#2563eb",
+    "category": "Marketing & Content",
+    "price": "Freemium",
+    "featured": true,
+    "description": "Generate sales emails, product descriptions, and social posts in seconds with a free tier to start.",
+    "url": "https://www.copy.ai/?ref=techdomina"
+  },
+  {
+    "name": "Surfer SEO",
+    "initial": "S",
+    "color": "#14b8a6",
+    "category": "Marketing & Content",
+    "price": "Paid",
+    "featured": false,
+    "description": "Optimize content to rank on Google with data-driven on-page SEO recommendations.",
+    "url": "https://surferseo.com/?ref=techdomina"
+  },
+  {
+    "name": "Canva",
+    "initial": "C",
+    "color": "#06b6d4",
+    "category": "Marketing & Content",
+    "price": "Freemium",
+    "featured": false,
+    "description": "Design social graphics, logos, and ads with AI Magic Studio — no design skills needed.",
+    "url": "https://www.canva.com/?ref=techdomina"
+  },
+  {
+    "name": "Notion AI",
+    "initial": "N",
+    "color": "#e5e7eb",
+    "category": "Marketing & Content",
+    "price": "Freemium",
+    "featured": false,
+    "description": "Write, summarize, and organize your business docs and notes with AI built into Notion.",
+    "url": "https://www.notion.so/product/ai?ref=techdomina"
+  },
+  {
+    "name": "Murf AI",
+    "initial": "M",
+    "color": "#6366f1",
+    "category": "Marketing & Content",
+    "price": "Freemium",
+    "featured": false,
+    "description": "Turn text into natural-sounding voiceovers for videos, ads, and product demos.",
+    "url": "https://murf.ai/?ref=techdomina"
+  },
+  {
+    "name": "Synthesia",
+    "initial": "S",
+    "color": "#4f46e5",
+    "category": "Marketing & Content",
+    "price": "Paid",
+    "featured": true,
+    "description": "Create studio-quality videos with AI avatars from plain text — no camera or crew required.",
+    "url": "https://www.synthesia.io/?ref=techdomina"
+  },
+  {
+    "name": "Pictory",
+    "initial": "P",
+    "color": "#ec4899",
+    "category": "Marketing & Content",
+    "price": "Freemium",
+    "featured": false,
+    "description": "Turn long videos and blog posts into short, shareable clips automatically.",
+    "url": "https://pictory.ai/?ref=techdomina"
+  },
+  {
+    "name": "Intercom Fin",
+    "initial": "I",
+    "color": "#1d4ed8",
+    "category": "Customer Support",
+    "price": "Paid",
+    "featured": false,
+    "description": "AI support agent that resolves customer questions instantly across chat and email.",
+    "url": "https://www.intercom.com/fin?ref=techdomina"
+  },
+  {
+    "name": "Tidio",
+    "initial": "T",
+    "color": "#0ea5e9",
+    "category": "Customer Support",
+    "price": "Freemium",
+    "featured": false,
+    "description": "Live chat plus AI chatbot Lyro that answers FAQs and captures leads 24/7.",
+    "url": "https://www.tidio.com/?ref=techdomina"
+  },
+  {
+    "name": "Chatbase",
+    "initial": "C",
+    "color": "#f97316",
+    "category": "Customer Support",
+    "price": "Freemium",
+    "featured": false,
+    "description": "Build a custom AI chatbot trained on your own docs and embed it on your site in minutes.",
+    "url": "https://www.chatbase.co/?ref=techdomina"
+  },
+  {
+    "name": "HubSpot AI",
+    "initial": "H",
+    "color": "#f43f5e",
+    "category": "Sales & CRM",
+    "price": "Freemium",
+    "featured": false,
+    "description": "Free CRM with AI tools to draft emails, score leads, and forecast your pipeline.",
+    "url": "https://www.hubspot.com/products/artificial-intelligence?ref=techdomina"
+  },
+  {
+    "name": "Apollo.io",
+    "initial": "A",
+    "color": "#7c3aed",
+    "category": "Sales & CRM",
+    "price": "Freemium",
+    "featured": false,
+    "description": "Find B2B leads and automate outreach with an AI-powered sales database.",
+    "url": "https://www.apollo.io/?ref=techdomina"
+  },
+  {
+    "name": "Lavender",
+    "initial": "L",
+    "color": "#a855f7",
+    "category": "Sales & CRM",
+    "price": "Freemium",
+    "featured": false,
+    "description": "AI email coach that helps you write sales emails that actually get replies.",
+    "url": "https://www.lavender.ai/?ref=techdomina"
+  },
+  {
+    "name": "QuickBooks AI",
+    "initial": "Q",
+    "color": "#22c55e",
+    "category": "Finance & Admin",
+    "price": "Paid",
+    "featured": false,
+    "description": "Automate bookkeeping, invoices, and cash-flow insights for your small business.",
+    "url": "https://quickbooks.intuit.com/?ref=techdomina"
+  },
+  {
+    "name": "Ramp",
+    "initial": "R",
+    "color": "#eab308",
+    "category": "Finance & Admin",
+    "price": "Free",
+    "featured": false,
+    "description": "Corporate cards and expense management with AI that flags savings automatically.",
+    "url": "https://ramp.com/?ref=techdomina"
+  },
+  {
+    "name": "Zapier AI",
+    "initial": "Z",
+    "color": "#f97316",
+    "category": "Automation & AI Agents",
+    "price": "Freemium",
+    "featured": true,
+    "description": "Connect your apps and build AI-powered automations across 7,000+ tools — no code.",
+    "url": "https://zapier.com/ai?ref=techdomina"
+  },
+  {
+    "name": "Make",
+    "initial": "M",
+    "color": "#8b5cf6",
+    "category": "Automation & AI Agents",
+    "price": "Freemium",
+    "featured": false,
+    "description": "Visual automation platform to design complex workflows with AI steps, drag-and-drop.",
+    "url": "https://www.make.com/?ref=techdomina"
+  },
+  {
+    "name": "ChatGPT",
+    "initial": "G",
+    "color": "#10a37f",
+    "category": "Automation & AI Agents",
+    "price": "Freemium",
+    "featured": false,
+    "description": "The everyday AI assistant for writing, research, planning, and answering questions.",
+    "url": "https://chatgpt.com/?ref=techdomina"
+  },
+  {
+    "name": "Relevance AI",
+    "initial": "R",
+    "color": "#3b82f6",
+    "category": "Automation & AI Agents",
+    "price": "Freemium",
+    "featured": false,
+    "description": "Build a team of AI agents that handle research, data entry, and repetitive work for you.",
+    "url": "https://relevanceai.com/?ref=techdomina"
+  }
+]

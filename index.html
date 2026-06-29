@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>techdomina — AI Tools That Actually Grow Your Small Business</title>
+  <meta name="description" content="A curated directory of the best AI tools for small business owners — marketing, support, sales, finance and automation. Hand-picked, organized by what you need to get done." />
+  <link rel="canonical" href="https://techdomina.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://techdomina.com/" />
+  <meta property="og:title" content="techdomina — AI Tools That Actually Grow Your Small Business" />
+  <meta property="og:description" content="The best AI tools for small business owners, organized by the job you need done: marketing, support, sales, finance and automation." />
+  <meta property="og:image" content="https://techdomina.com/assets/img/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#catalog">Skip to tools</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#top">
+        <span class="logo-mark">td</span> techdomina
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="menu" class="site-nav" aria-label="Main navigation">
+        <a href="#catalog">Browse tools</a>
+        <a href="#featured">Featured</a>
+        <a href="#list-your-tool">List your tool</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">For small business owners</p>
+        <h1>AI tools that actually <span class="grad">grow your business</span></h1>
+        <p class="hero-sub">
+          Stop drowning in "best AI tools" listicles. We hand-pick the tools that save real
+          time and money for small businesses — organized by the job you need done.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#catalog">Browse the tools</a>
+          <a class="btn btn-ghost" href="#list-your-tool">List your tool</a>
+        </div>
+        <p class="hero-stats"><strong id="tool-count">20+</strong> tools · <strong>5</strong> categories · updated for 2026</p>
+      </div>
+    </section>
+
+    <!-- FEATURED -->
+    <section id="featured" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Featured tools</h2>
+          <span class="badge-sponsored">Sponsored</span>
+        </div>
+        <p class="section-lead">Editor's picks and partner placements worth your attention this month.</p>
+        <div id="featured-grid" class="grid grid-tools" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- CATALOG -->
+    <section id="catalog" class="section section-alt">
+      <div class="container">
+        <h2>Browse all tools</h2>
+
+        <div class="controls">
+          <div class="search-wrap">
+            <input
+              type="search"
+              id="search"
+              class="search"
+              placeholder="Search tools, e.g. video, chatbot, invoices…"
+              aria-label="Search tools"
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="filter-row" role="group" aria-label="Filter by category">
+            <button class="chip is-active" data-filter="category" data-value="all">All</button>
+            <button class="chip" data-filter="category" data-value="Marketing &amp; Content">Marketing &amp; Content</button>
+            <button class="chip" data-filter="category" data-value="Customer Support">Customer Support</button>
+            <button class="chip" data-filter="category" data-value="Sales &amp; CRM">Sales &amp; CRM</button>
+            <button class="chip" data-filter="category" data-value="Finance &amp; Admin">Finance &amp; Admin</button>
+            <button class="chip" data-filter="category" data-value="Automation &amp; AI Agents">Automation &amp; AI Agents</button>
+          </div>
+
+          <div class="filter-row" role="group" aria-label="Filter by price">
+            <span class="filter-label">Price:</span>
+            <button class="chip chip-sm is-active" data-filter="price" data-value="all">Any</button>
+            <button class="chip chip-sm" data-filter="price" data-value="Free">Free</button>
+            <button class="chip chip-sm" data-filter="price" data-value="Freemium">Freemium</button>
+            <button class="chip chip-sm" data-filter="price" data-value="Paid">Paid</button>
+          </div>
+        </div>
+
+        <p id="result-count" class="result-count" aria-live="polite"></p>
+        <div id="tools-grid" class="grid grid-tools" aria-live="polite"></div>
+        <p id="empty-state" class="empty-state" hidden>No tools match your filters. Try clearing the search.</p>
+      </div>
+    </section>
+
+    <!-- LIST YOUR TOOL -->
+    <section id="list-your-tool" class="section cta-band">
+      <div class="container cta-inner">
+        <div>
+          <h2>Built an AI tool for small businesses?</h2>
+          <p>
+            Get in front of owners who are ready to buy. List your tool in the directory or
+            grab a featured placement at the top of its category.
+          </p>
+        </div>
+        <a class="btn btn-primary btn-lg" href="mailto:hello@techdomina.com?subject=List%20my%20AI%20tool">Get listed →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-brand"><span class="logo-mark">td</span> techdomina</p>
+      <p class="footer-note">
+        Some links are affiliate links — if you buy through them we may earn a commission at
+        no extra cost to you. It never affects which tools we recommend.
+      </p>
+      <p class="footer-copy">&copy; <span id="year"></span> techdomina. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
