@@ -44,13 +44,13 @@ Categories must match one of: `Marketing & Content`, `Customer Support`,
    `rel="sponsored noopener"` and open in a new tab.
 2. **Featured placements** — set `"featured": true` to put a tool in the Featured
    section (sell these slots to vendors monthly).
-3. **"Get listed"** — the CTA emails `hello@techdomina.com`. Change that address in
+3. **"Get listed"** — the CTA emails `info@techdomina.com`. Change that address in
    `index.html` (and the `mailto:` link) to yours.
 
 ## Before going live — checklist
 
 - [ ] Replace every `url` with your real affiliate link.
-- [ ] Change `hello@techdomina.com` to your real email.
+- [ ] Change `info@techdomina.com` to your real email.
 - [ ] Add a real `assets/img/og-image.png` (1200×630) for social sharing.
 - [ ] Confirm the affiliate disclosure in the footer fits your region's rules.
 
