@@ -38,6 +38,17 @@ Categories must match one of: `Marketing & Content`, `Customer Support`,
 `Sales & CRM`, `Finance & Admin`, `Automation & AI Agents`.
 (To add a new category, also add a matching filter button in `index.html`.)
 
+**After editing `data/tools.json`, regenerate the review pages:**
+
+```bash
+node scripts/generate.js
+```
+
+This rebuilds one review page per tool in `tools/<slug>.html`, plus `sitemap.xml`
+and `robots.txt`. The homepage cards update automatically (they read the JSON live);
+only the per-tool review pages are pre-generated, so re-run this whenever you add,
+remove, or rename a tool. Then commit the changes.
+
 ## Monetization — where the money comes from
 
 1. **Affiliate links** — replace each `url` with your affiliate link. Links use

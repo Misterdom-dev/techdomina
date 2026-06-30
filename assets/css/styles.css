@@ -175,6 +175,7 @@ p  { color: var(--text-soft); }
   background: var(--surface); border: 1px solid var(--border);
   border-radius: var(--radius); padding: 1.4rem;
   transition: border-color .2s, transform .12s, box-shadow .2s;
+  text-decoration: none; color: inherit;
 }
 .tool-card:hover {
   border-color: rgba(124,92,255,.5); transform: translateY(-3px);
@@ -210,6 +211,28 @@ p  { color: var(--text-soft); }
 }
 
 .empty-state { text-align: center; color: var(--text-faint); padding: 2.5rem 0; }
+
+/* ===========================================================================
+   Review pages (tools/*.html)
+   =========================================================================== */
+.breadcrumb { font-size: .85rem; color: var(--text-faint); margin: 1.5rem 0; }
+.breadcrumb a { color: var(--text-soft); }
+.breadcrumb a:hover { color: var(--accent-2); }
+.breadcrumb span { margin: 0 .4rem; }
+
+.review { max-width: 760px; }
+.review-head { display: flex; align-items: center; gap: 1.1rem; margin-bottom: 1.8rem; }
+.review-head .tool-logo { width: 64px; height: 64px; border-radius: 15px; font-size: 1.7rem; }
+.review-head h1 { font-size: clamp(1.7rem, 5vw, 2.5rem); line-height: 1.1; }
+.review-meta { display: flex; align-items: center; gap: .6rem; margin-top: .55rem; color: var(--text-faint); font-size: .9rem; }
+.review-lead { font-size: 1.15rem; color: var(--text-soft); margin-bottom: .5rem; }
+.review section { margin: 2rem 0; }
+.review section h2 { font-size: 1.3rem; margin-bottom: .6rem; }
+.review-cta {
+  display: flex; flex-wrap: wrap; gap: .75rem; align-items: center;
+  margin-top: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--border);
+}
+.review-note { font-size: .82rem; color: var(--text-faint); margin-top: 1.5rem; }
 
 /* ===========================================================================
    CTA band

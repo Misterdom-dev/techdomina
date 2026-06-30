@@ -46,13 +46,25 @@
       .replace(/"/g, "&quot;");
   }
 
+  // Slug must match the one used by scripts/generate.js so card links resolve.
+  function slugify(name) {
+    return String(name)
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+  }
+
   function cardHTML(tool, opts) {
     const featuredRibbon =
       opts && opts.showRibbon && tool.featured
         ? '<span class="ribbon">Featured</span>'
         : "";
+    const slug = slugify(tool.name);
+    // The whole card is a link to the tool's review page (better SEO + funnel).
+    // The affiliate "Visit" button lives on that review page.
     return `
-      <article class="tool-card${tool.featured && opts && opts.featuredStyle ? " is-featured" : ""}">
+      <a class="tool-card${tool.featured && opts && opts.featuredStyle ? " is-featured" : ""}"
+         href="tools/${slug}.html" aria-label="Read our ${esc(tool.name)} review">
         ${featuredRibbon}
         <div class="tool-top">
           <span class="tool-logo" style="background:${esc(tool.color)}">${esc(tool.initial)}</span>
@@ -64,10 +76,9 @@
         <p class="tool-desc">${esc(tool.description)}</p>
         <div class="tool-meta">
           <span class="price-badge price-${esc(tool.price)}">${esc(tool.price)}</span>
-          <a class="tool-visit" href="${esc(tool.url)}" target="_blank" rel="sponsored noopener"
-             aria-label="Visit ${esc(tool.name)} (opens in a new tab)">Visit &rarr;</a>
+          <span class="tool-visit">View &rarr;</span>
         </div>
-      </article>`;
+      </a>`;
   }
 
   function matchesFilters(tool) {
