@@ -61,11 +61,10 @@ function head(opts) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>${esc(opts.title)}</title>
-  <meta name="description" content="${esc(opts.desc)}" />
-  <link rel="canonical" href="${opts.canonical}" />
+  <meta name="description" content="${esc(opts.desc)}" />${opts.noindex ? `\n  <meta name="robots" content="noindex" />` : ""}${opts.canonical ? `\n  <link rel="canonical" href="${opts.canonical}" />` : ""}
 
   <meta property="og:type" content="${opts.ogType || "website"}" />
-  <meta property="og:url" content="${opts.canonical}" />
+  <meta property="og:url" content="${opts.canonical || SITE + "/"}" />
   <meta property="og:title" content="${esc(opts.ogTitle || opts.title)}" />
   <meta property="og:description" content="${esc(opts.ogDesc || opts.desc)}" />
   <meta property="og:image" content="${OG_IMAGE}" />
@@ -287,6 +286,26 @@ ${header()}
 ${footer()}`;
 }
 
+// --- Página 404 (GitHub Pages serve /404.html automaticamente) ---
+function notFoundPage() {
+  return `${head({ title: "Page not found (404) | techdomina", desc: "The page you were looking for doesn't exist.", noindex: true })}
+<body>
+  <a class="skip-link" href="#nf">Skip to content</a>
+${header()}
+  <main id="nf">
+    <div class="container notfound">
+      <p class="nf-code">404</p>
+      <h1>This page took a coffee break</h1>
+      <p class="nf-text">The page you were looking for doesn't exist or may have moved. Let's get you back to the good stuff.</p>
+      <div class="nf-actions">
+        <a class="btn btn-primary btn-lg" href="/#catalog">Browse all tools</a>
+        <a class="btn btn-ghost" href="/">Go to homepage</a>
+      </div>
+    </div>
+  </main>
+${footer()}`;
+}
+
 // --- Geração ---
 const toolsDir = path.join(ROOT, "tools");
 const catDir = path.join(ROOT, "category");
@@ -304,6 +323,9 @@ tools.forEach((tool) => {
   fs.writeFileSync(path.join(toolsDir, `${slug}.html`), reviewPage(tool));
   urls.push(`${SITE}/tools/${slug}.html`);
 });
+
+// 404 (não entra no sitemap)
+fs.writeFileSync(path.join(ROOT, "404.html"), notFoundPage());
 
 const today = new Date().toISOString().slice(0, 10);
 const sitemap =
