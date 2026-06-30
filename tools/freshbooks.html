@@ -15,30 +15,66 @@
   <meta property="og:image" content="https://techdomina.com/assets/img/og-image.png" />
   <meta name="twitter:card" content="summary_large_image" />
 
-  <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <script type="application/ld+json">
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "FreshBooks",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "description": "Invoicing and accounting built for freelancers and service-based small businesses.",
+    "url": "https://www.freshbooks.com/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://techdomina.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Finance & Admin",
+        "item": "https://techdomina.com/category/finance-admin.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "FreshBooks review",
+        "item": "https://techdomina.com/tools/freshbooks.html"
+      }
+    ]
+  }
+]
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#review">Skip to content</a>
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="logo" href="../"><span class="logo-mark">td</span> techdomina</a>
+      <a class="logo" href="/"><span class="logo-mark">td</span> techdomina</a>
       <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
         <span></span><span></span><span></span>
       </button>
       <nav id="menu" class="site-nav" aria-label="Main navigation">
-        <a href="../#catalog">Browse tools</a>
-        <a href="../#featured">Featured</a>
-        <a href="../#list-your-tool">List your tool</a>
+        <a href="/#catalog">Browse tools</a>
+        <a href="/#featured">Featured</a>
+        <a href="/#list-your-tool">List your tool</a>
       </nav>
     </div>
   </header>
-
   <main id="review">
     <div class="container">
       <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="../">Home</a><span>/</span><a href="../#catalog">Finance &amp; Admin</a><span>/</span>FreshBooks
+        <a href="/">Home</a><span>/</span><a href="/category/finance-admin.html">Finance &amp; Admin</a><span>/</span>FreshBooks
       </nav>
 
       <article class="review">
@@ -73,10 +109,72 @@
 
         <div class="review-cta">
           <a class="btn btn-primary btn-lg" href="https://www.freshbooks.com/?ref=techdomina" target="_blank" rel="sponsored noopener">Visit FreshBooks &rarr;</a>
-          <a class="btn btn-ghost" href="../#catalog">&larr; Back to all tools</a>
+          <a class="btn btn-ghost" href="/category/finance-admin.html">More Finance &amp; Admin tools</a>
         </div>
 
         <p class="review-note">Disclosure: the link above may be an affiliate link. If you sign up through it we may earn a commission at no extra cost to you — it never affects which tools we recommend.</p>
+
+        <section class="related">
+          <h2>More Finance &amp; Admin tools</h2>
+          <div class="grid grid-tools">
+        <a class="tool-card" href="/tools/quickbooks-ai.html" aria-label="Read our QuickBooks AI review">
+          <div class="tool-top">
+            <span class="tool-logo" style="background:#22c55e">Q</span>
+            <div>
+              <div class="tool-title">QuickBooks AI</div>
+              <div class="tool-cat">Finance &amp; Admin</div>
+            </div>
+          </div>
+          <p class="tool-desc">Automate bookkeeping, invoices, and cash-flow insights for your small business.</p>
+          <div class="tool-meta">
+            <span class="price-badge price-Paid">Paid</span>
+            <span class="tool-visit">View &rarr;</span>
+          </div>
+        </a>
+        <a class="tool-card" href="/tools/ramp.html" aria-label="Read our Ramp review">
+          <div class="tool-top">
+            <span class="tool-logo" style="background:#eab308">R</span>
+            <div>
+              <div class="tool-title">Ramp</div>
+              <div class="tool-cat">Finance &amp; Admin</div>
+            </div>
+          </div>
+          <p class="tool-desc">Corporate cards and expense management with AI that flags savings automatically.</p>
+          <div class="tool-meta">
+            <span class="price-badge price-Free">Free</span>
+            <span class="tool-visit">View &rarr;</span>
+          </div>
+        </a>
+        <a class="tool-card" href="/tools/xero.html" aria-label="Read our Xero review">
+          <div class="tool-top">
+            <span class="tool-logo" style="background:#13b5ea">X</span>
+            <div>
+              <div class="tool-title">Xero</div>
+              <div class="tool-cat">Finance &amp; Admin</div>
+            </div>
+          </div>
+          <p class="tool-desc">Cloud accounting with AI insights on cash flow, invoices, and reconciliation.</p>
+          <div class="tool-meta">
+            <span class="price-badge price-Paid">Paid</span>
+            <span class="tool-visit">View &rarr;</span>
+          </div>
+        </a>
+        <a class="tool-card" href="/tools/wave.html" aria-label="Read our Wave review">
+          <div class="tool-top">
+            <span class="tool-logo" style="background:#4353ff">W</span>
+            <div>
+              <div class="tool-title">Wave</div>
+              <div class="tool-cat">Finance &amp; Admin</div>
+            </div>
+          </div>
+          <p class="tool-desc">Free accounting and invoicing software for very small businesses and solopreneurs.</p>
+          <div class="tool-meta">
+            <span class="price-badge price-Free">Free</span>
+            <span class="tool-visit">View &rarr;</span>
+          </div>
+        </a>
+          </div>
+        </section>
       </article>
     </div>
   </main>
@@ -84,10 +182,12 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <p class="footer-brand"><span class="logo-mark">td</span> techdomina</p>
+      <nav class="footer-cats" aria-label="Categories"><a href="/category/marketing-content.html">Marketing &amp; Content</a><a href="/category/customer-support.html">Customer Support</a><a href="/category/sales-crm.html">Sales &amp; CRM</a><a href="/category/finance-admin.html">Finance &amp; Admin</a><a href="/category/automation-ai-agents.html">Automation &amp; AI Agents</a></nav>
+      <p class="footer-note">Some links are affiliate links — if you buy through them we may earn a commission at no extra cost to you. It never affects which tools we recommend.</p>
       <p class="footer-copy">&copy; 2026 techdomina. All rights reserved.</p>
     </div>
   </footer>
 
-  <script src="../assets/js/main.js"></script>
+  <script src="/assets/js/main.js"></script>
 </body>
 </html>
