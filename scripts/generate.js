@@ -111,6 +111,10 @@ function footer() {
   </footer>
 
   <script src="/assets/js/main.js"></script>
+
+  <!-- Cloudflare Web Analytics -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "00d045d8a894490b97b006eb4d9674fd"}'></script>
+  <!-- End Cloudflare Web Analytics -->
 </body>
 </html>
 `;
