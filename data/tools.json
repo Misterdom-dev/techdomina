@@ -80,6 +80,76 @@
     "url": "https://pictory.ai/?ref=techdomina"
   },
   {
+    "name": "Writesonic",
+    "initial": "W",
+    "color": "#5b6ef5",
+    "category": "Marketing & Content",
+    "price": "Freemium",
+    "featured": false,
+    "description": "AI writer and SEO content tool that drafts articles, ads, and chatbots for your brand.",
+    "url": "https://writesonic.com/?ref=techdomina"
+  },
+  {
+    "name": "Descript",
+    "initial": "D",
+    "color": "#fc5a5a",
+    "category": "Marketing & Content",
+    "price": "Freemium",
+    "featured": false,
+    "description": "Edit video and podcasts like a text document, with AI transcription and voice cloning.",
+    "url": "https://www.descript.com/?ref=techdomina"
+  },
+  {
+    "name": "AdCreative.ai",
+    "initial": "A",
+    "color": "#7c5cff",
+    "category": "Marketing & Content",
+    "price": "Paid",
+    "featured": false,
+    "description": "Generate high-converting ad creatives and banners for your campaigns in seconds.",
+    "url": "https://www.adcreative.ai/?ref=techdomina"
+  },
+  {
+    "name": "Grammarly",
+    "initial": "G",
+    "color": "#15c39a",
+    "category": "Marketing & Content",
+    "price": "Freemium",
+    "featured": false,
+    "description": "AI writing assistant that fixes grammar and sharpens tone across email, docs, and the web.",
+    "url": "https://www.grammarly.com/?ref=techdomina"
+  },
+  {
+    "name": "Buffer",
+    "initial": "B",
+    "color": "#2c4bff",
+    "category": "Marketing & Content",
+    "price": "Freemium",
+    "featured": false,
+    "description": "Schedule social posts and get AI help writing captions across all your channels.",
+    "url": "https://buffer.com/?ref=techdomina"
+  },
+  {
+    "name": "Opus Clip",
+    "initial": "O",
+    "color": "#8b5cf6",
+    "category": "Marketing & Content",
+    "price": "Freemium",
+    "featured": false,
+    "description": "Turn one long video into dozens of viral-ready short clips with AI, automatically.",
+    "url": "https://www.opus.pro/?ref=techdomina"
+  },
+  {
+    "name": "ElevenLabs",
+    "initial": "E",
+    "color": "#e5e7eb",
+    "category": "Marketing & Content",
+    "price": "Freemium",
+    "featured": false,
+    "description": "Ultra-realistic AI voices for videos, audiobooks, and IVR in any language.",
+    "url": "https://elevenlabs.io/?ref=techdomina"
+  },
+  {
     "name": "Intercom Fin",
     "initial": "I",
     "color": "#1d4ed8",
@@ -108,6 +178,36 @@
     "featured": false,
     "description": "Build a custom AI chatbot trained on your own docs and embed it on your site in minutes.",
     "url": "https://www.chatbase.co/?ref=techdomina"
+  },
+  {
+    "name": "Zendesk AI",
+    "initial": "Z",
+    "color": "#00a698",
+    "category": "Customer Support",
+    "price": "Paid",
+    "featured": false,
+    "description": "AI-powered helpdesk that automates replies and routes tickets across every channel.",
+    "url": "https://www.zendesk.com/service/ai/?ref=techdomina"
+  },
+  {
+    "name": "Freshdesk",
+    "initial": "F",
+    "color": "#25c16f",
+    "category": "Customer Support",
+    "price": "Freemium",
+    "featured": false,
+    "description": "Support desk with Freddy AI to auto-answer tickets and suggest replies to your team.",
+    "url": "https://www.freshworks.com/freshdesk/?ref=techdomina"
+  },
+  {
+    "name": "Crisp",
+    "initial": "C",
+    "color": "#1972f5",
+    "category": "Customer Support",
+    "price": "Freemium",
+    "featured": false,
+    "description": "All-in-one chat, inbox, and AI chatbot built for small business support teams.",
+    "url": "https://crisp.chat/?ref=techdomina"
   },
   {
     "name": "HubSpot AI",
@@ -140,6 +240,36 @@
     "url": "https://www.lavender.ai/?ref=techdomina"
   },
   {
+    "name": "Pipedrive",
+    "initial": "P",
+    "color": "#21c25e",
+    "category": "Sales & CRM",
+    "price": "Paid",
+    "featured": false,
+    "description": "Sales-first CRM with an AI assistant that flags hot deals and next best actions.",
+    "url": "https://www.pipedrive.com/?ref=techdomina"
+  },
+  {
+    "name": "Instantly",
+    "initial": "I",
+    "color": "#5b4cf5",
+    "category": "Sales & CRM",
+    "price": "Paid",
+    "featured": false,
+    "description": "Send cold email at scale with AI deliverability tools and automated follow-ups.",
+    "url": "https://instantly.ai/?ref=techdomina"
+  },
+  {
+    "name": "Clay",
+    "initial": "C",
+    "color": "#d97757",
+    "category": "Sales & CRM",
+    "price": "Freemium",
+    "featured": false,
+    "description": "AI prospecting that enriches leads and writes personalized outreach automatically.",
+    "url": "https://www.clay.com/?ref=techdomina"
+  },
+  {
     "name": "QuickBooks AI",
     "initial": "Q",
     "color": "#22c55e",
@@ -158,6 +288,46 @@
     "featured": false,
     "description": "Corporate cards and expense management with AI that flags savings automatically.",
     "url": "https://ramp.com/?ref=techdomina"
+  },
+  {
+    "name": "Xero",
+    "initial": "X",
+    "color": "#13b5ea",
+    "category": "Finance & Admin",
+    "price": "Paid",
+    "featured": false,
+    "description": "Cloud accounting with AI insights on cash flow, invoices, and reconciliation.",
+    "url": "https://www.xero.com/?ref=techdomina"
+  },
+  {
+    "name": "FreshBooks",
+    "initial": "F",
+    "color": "#0d75dd",
+    "category": "Finance & Admin",
+    "price": "Paid",
+    "featured": false,
+    "description": "Invoicing and accounting built for freelancers and service-based small businesses.",
+    "url": "https://www.freshbooks.com/?ref=techdomina"
+  },
+  {
+    "name": "Wave",
+    "initial": "W",
+    "color": "#4353ff",
+    "category": "Finance & Admin",
+    "price": "Free",
+    "featured": false,
+    "description": "Free accounting and invoicing software for very small businesses and solopreneurs.",
+    "url": "https://www.waveapps.com/?ref=techdomina"
+  },
+  {
+    "name": "Brex",
+    "initial": "B",
+    "color": "#ff5c39",
+    "category": "Finance & Admin",
+    "price": "Free",
+    "featured": false,
+    "description": "Corporate cards and spend management with AI expense categorization.",
+    "url": "https://www.brex.com/?ref=techdomina"
   },
   {
     "name": "Zapier AI",
@@ -190,6 +360,16 @@
     "url": "https://chatgpt.com/?ref=techdomina"
   },
   {
+    "name": "Claude",
+    "initial": "C",
+    "color": "#cc785c",
+    "category": "Automation & AI Agents",
+    "price": "Freemium",
+    "featured": false,
+    "description": "AI assistant from Anthropic for writing, analysis, and working through long documents.",
+    "url": "https://claude.ai/?ref=techdomina"
+  },
+  {
     "name": "Relevance AI",
     "initial": "R",
     "color": "#3b82f6",
@@ -198,5 +378,25 @@
     "featured": false,
     "description": "Build a team of AI agents that handle research, data entry, and repetitive work for you.",
     "url": "https://relevanceai.com/?ref=techdomina"
+  },
+  {
+    "name": "n8n",
+    "initial": "N",
+    "color": "#ea4b71",
+    "category": "Automation & AI Agents",
+    "price": "Freemium",
+    "featured": false,
+    "description": "Open-source workflow automation with native AI nodes — self-host or run in the cloud.",
+    "url": "https://n8n.io/?ref=techdomina"
+  },
+  {
+    "name": "Lindy",
+    "initial": "L",
+    "color": "#6d28d9",
+    "category": "Automation & AI Agents",
+    "price": "Freemium",
+    "featured": false,
+    "description": "Build AI assistants that handle email, scheduling, and tasks across your tools.",
+    "url": "https://www.lindy.ai/?ref=techdomina"
   }
 ]
